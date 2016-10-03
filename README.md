@@ -87,10 +87,10 @@ You need to start several terminals to work with the tracker.
 ```
 Terminal_1:
 
-roslaunch openni_launch openni_launch
+roslaunch openni_launch openni.launch
 Terminal_2:
 
-rosrun openni_tracker openni.tracker
+rosrun openni_tracker openni_tracker
 Terminal_3:
 
 rosrun rviz rviz
