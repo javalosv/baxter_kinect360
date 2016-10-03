@@ -90,7 +90,7 @@ Terminal_1:
 roslaunch openni_launch openni_launch
 Terminal_2:
 
-rosrun openni_tracker openni_tracker
+rosrun openni_tracker openni.tracker
 Terminal_3:
 
 rosrun rviz rviz
