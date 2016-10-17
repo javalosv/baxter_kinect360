@@ -33,7 +33,7 @@ cd OpenNI-Bin-Dev-Linux-x64-v1.5.7.10
 sudo ./install.sh
 ```
 
-#SesorKinect
+#SensorKinect
 The way to get this part to work is similar to the OpenNI guide:
 Download Package:
 ```
