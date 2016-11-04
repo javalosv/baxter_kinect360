@@ -1,16 +1,16 @@
 # baxter_kinect360
-This documentation a funtional way to get topics in ROS from kinect. This git use the information from:
+This documentation a funtional way to get topics in ROS from kinect. This tutorial is a adaptation from:
 
 https://github.com/ros-drivers/openni_tracker/issues/9
 
 
 #OpenNI
-I don't know if all of the following components really have to be installed, but I found this part of the Manual in another forum:
+Install dependence
 ```
 sudo apt-get install git-core cmake freeglut3-dev pkg-config build-essential libxmu-dev libxi-dev  libusb-1.0-0-dev openjdk-6-jdk
 doxygen graphviz mono-complete
 ```
-Now it is possible to download the OpenNI-Package
+Download the OpenNI-Package
 
 ```
 mkdir ~/kinect
@@ -54,7 +54,7 @@ cd Sensor-Bin-Linux-x64-v5.1.2.1
 sudo ./install.sh
 ```
 #NITE
-You can download this Library for example from the link mentioned in the post above. Don't forget that only the Versions NITE v1.5.2.21 and NITE v1.5.2.23 will work for you. Paste the nite-folder into your kinect-folder to keep track of your data:
+You can download this Library from different source. Don't forget that only the Versions NITE v1.5.2.21 and NITE v1.5.2.23 will work for you:
 ```
 cd ~kinect/nite/
 tar -xjf NITE-Bin-Dev-Linux-x64-v1.5.2.23.tar.bz2
@@ -95,3 +95,4 @@ Terminal_3:
 
 rosrun rviz rviz
 ```
+Personally, I reccomend to build a Launch for all this task.
