@@ -95,4 +95,8 @@ Terminal_3:
 
 rosrun rviz rviz
 ```
-Personally, I reccomend to build a Launch for all this task.
+Personally, I reccomend to build a Launch for all this task. We will generate topics with information about skeleton tracking. 
+```
+rostopic list
+```
+/openni_depth_frame will contain the information of all nodes as /TF msg (http://wiki.ros.org/tf2). However, it is limitated to the position the orientation in the msg is a constant. 
