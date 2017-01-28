@@ -3,8 +3,6 @@ This documentation is a funtional way to get topics in ROS from kinect. The main
 
 https://github.com/ros-drivers/openni_tracker/issues/9
 
-This steps work in ROS envioroment  
-
 #OpenNI
 Install dependence
 ```
