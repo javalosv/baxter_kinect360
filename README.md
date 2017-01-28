@@ -1,8 +1,9 @@
-# baxter_kinect360
-This documentation a funtional way to get topics in ROS from kinect. This tutorial is a adaptation from:
+# Baxter_kinect360
+This documentation is a funtional way to get topics in ROS from kinect. The main idea is reproduce the telepresence with the Baxter obtaining the position from the Kinect 360 in Ubuntu system. This tutorial is a adaptation from:
 
 https://github.com/ros-drivers/openni_tracker/issues/9
 
+This steps work in ROS envioroment  
 
 #OpenNI
 Install dependence
@@ -99,4 +100,4 @@ Personally, I reccomend to build a Launch for all this task. We will generate to
 ```
 rostopic list
 ```
-/openni_depth_frame will contain the information of all nodes as /TF msg (http://wiki.ros.org/tf2). However, it is limitated to the position, the orientation in the msg is a constant. 
+/openni_depth_frame will contain the information of all nodes as /TF2 msg (http://wiki.ros.org/tf2). However, it is limitated to the position, the orientation in the msg is a constant(this problem is due to the Kinect V1). 
